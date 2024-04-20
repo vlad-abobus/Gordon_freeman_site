@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+            /* Reset default margin and padding */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        /* Header styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 50%; /* Змінив ширину відео контейнера */
+            max-width: 600px;
+        }
+
+        .text-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            width: 90%;
+        }
+
+        .text-overlay h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .text-overlay ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-overlay li {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .video-container:hover .text-overlay {
+            opacity: 1;
+        }
+
+        .tx_project {
+            margin-right: 20px;
+        }
+
+        .img_project {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .map {
+            width: 100%;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .ilavul {
+            text-align: center;
+        }
+
+        .project1 {
+            float: right;
+            width: 40%; /* Змінив ширину картки проекту */
+        }
+
+        .project {
+            float: left;
+            width: 40%; /* Змінив ширину картки проекту */
+        }
+       </style>
+</head>
+<body>
+<header>
+    <h1 id="un">AXLΞBOLT</h1>
+    <nav>
+        <a href="#UN" >Головна </a>
+        <a href="#doi">Наші проєкти </a>
+        <a>Деталі</a>
+    </nav>
+</header>
+<main>
+    <div class="content-wrapper">
+        <div class="video-container">
+            <video playsinline="" autoplay="" preload="metadata" muted="" loop="" class="styles_HomePage__video-img-bg__L5f4A">
+                <source src="https://player.vimeo.com/progressive_redirect/playback/692509333/rendition/540p?loc=external&amp;signature=70d806203444c6ff8410429e1ee079dbe5d6c5316268104834832a1f1e5e2bca" type="video/mp4">
+            </video>
+            <div class="text-overlay">
+                <h3>Вакансії:</h3>
+                <ul>
+                    <li>Веб-дизайнер</li>
+                    <li>Розробник анти-читів</li>
+                    <li>Адміністратор</li>
+                    <li>Старший програміст</li>
+                    <li>Асистент бухгалтера</li>
+                    <li>Тестувальник програмного забезпечення</li>
+                    <li>Системний аналітик</li>
+                </ul>
+                <h4>За кого ти нас приймаєш?! Баланс це наш самий головний преорітет</h4>
+            </div>
+        </div>
+        <h4>Ласкаво просимо до Axelbolt - компанії, яка перевертає уявлення про інновації та технології! У нас ви знайдете неймовірну команду фахівців, які працюють над захопливими проектами у сфері IT.
+            Axelbolt - це не лише місце роботи, але й справжня спільнота творчих та мотивованих людей, які прагнуть до досягнення високих результатів. Наша компанія спеціалізується на розробці програмного забезпечення та впровадженні передових технологій у різних сферах життя.
+            Ось кілька причин, чому варто обрати Axelbolt:
+            1. **Інновації на перших рядах.** Ми завжди впереду за новітніми технологіями та впроваджуємо їх у наші проекти.
+            2. **Професійний розвиток.** У нашій компанії ви зможете не лише реалізувати свій потенціал, а й постійно розвиватися як фахівець.
+            3. **Дружня атмосфера.** Axelbolt - це не лише робоче місце, але й місце, де ви знайдете друзів та підтримку у колег.
+            4. **Гнучкі умови.** Ми розуміємо, що кожен працівник унікальний, тому пропонуємо гнучкі графіки та умови роботи.
+            5. **Місце для творчості.** У нас ви зможете втілювати свої ідеї та долучитися до створення продуктів, які змінюють світ.
+            Приєднуйтесь до Axelbolt і станьте частиною нашої захопливої подорожі у світ технологій та інновацій!</h4>
+        <div class="map">
+            <h2 class="ilavul">Наш офіс</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17951.711348285015!2d49.107838934765624!3d55.7764985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead4bb0c3c6a9%3A0xc5af96ad46e7ae6b!2z0J7RhNC40YEg0JrQvtC80L_QsNC90LjQuCBBeGxlYm9sdA!5e0!3m2!1suk!2sua!4v1712436625763!5m2!1suk!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h4>Звідки ви почнете свій день роботи або пригоди? Вітаємо у нашому офісі!
+
+                Axelbolt розташований в самому центрі міста, що забезпечує легкий доступ та зручність для наших співробітників та відвідувачів. Наш офіс розташований за адресою [Расія,Казань,Аксель як завжди], забезпечуючи зручний доступ до громадського транспорту та паркування для автомобілів.
+
+                Прибувши до нашого офісу, ви зустрінете професійну та дружелюбну команду, готову допомогти вам у вирішенні будь-яких завдань чи питань.
+
+                Запрошуємо вас завітати до нас! Наш офіс завжди відкритий для співпраці, нових ідей та можливостей.</h4>
+        </div>
+    </div>
+    <h2>Наші проєкти</h2>
+    <div class="project">
+        <img class="img_project" width="100px" src="https://axlebolt.com/assets/images/standoff2.png">
+        <p class="tx_project">100млн завантажень</p>
+        <p class="tx_project">Самий популярний FPS-Шутер в СНГ-країнах</p>
+    </div>
+    <div id="doi" class="project1">
+        <img class="img_project" width="100px" src="https://upload.wikimedia.org/wikipedia/ru/thumb/4/4e/Brawl_Stars.png/640px-Brawl_Stars.png">
+        <p class="tx_project">Викуплений фірмою за 3млн доларів</p>
+        <p class="tx_project">1млрд завантажень</p>
+    </div>
+    <h2>Навіть музика тут</h2>
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1777753071&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sava_tsurkanu" title="Sava Tsurkanu" target="_blank" style="color: #cccccc; text-decoration: none;">Sava Tsurkanu</a> · <a href="https://soundcloud.com/sava_tsurkanu/infiltration" title="INFILTRATION" target="_blank" style="color: #cccccc; text-decoration: none;">INFILTRATION</a></div>
+</main>
+<footer>
+    <h4>Зв'яжіться з нами, зателефонувавши за номером (номер телефону). Ми знаходимося в Казані і готові допомогти вам у вирішенні будь-яких питань</h4>
+
+   <div>
+                <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/pyoiumqr.json"
+    trigger="hover"
+    colors="primary:#ffffff"
+    style="width:70px;height:70px">
+</lord-icon> <img style="width: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VK_Compact_Logo_%282021-present%29.svg/2048px-VK_Compact_Logo_%282021-present%29.svg.png" style="width:50px">
+      <img style="width: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"></div>
+ 
+</footer>
+</body>
+</html>
